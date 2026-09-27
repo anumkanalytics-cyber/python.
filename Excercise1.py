@@ -1,0 +1,11 @@
+# personal introduction generator.
+name = input("Enter your Name: ")
+print("My name is " + name)
+age = input("Enter your age: ")
+print("My age is "  + age + " years old")
+city = input("Enter your city: ")
+print("And i live in "  + city )
+fav_subject = input("Enter your favourite subject: ")
+print("My favourite subject is " + fav_subject)
+fav_hobby = input("Enter your favourite hobby: ")
+print("My favourite hobby is "  + fav_hobby)
