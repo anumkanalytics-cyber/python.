@@ -1,4 +1,4 @@
-# shopping recipt
+# shopping receipt
 item_1 = input("Enter item's name: ")
 price_1 = input("Enter item's price: ")
 item_2 = input("Enter item's name: ")
