@@ -1,0 +1,17 @@
+# shopping recipt
+item_1 = input("Enter item's name: ")
+price_1 = input("Enter item's price: ")
+item_2 = input("Enter item's name: ")
+price_2 = input("Enter item's price: ")
+item_3 = input("Enter item's name: ")
+price_3 = input("Enter item's price: ")
+tax_persentage = (int(input("Enter Your tax persentage: ")))
+subtotal = int(price_1) + int(price_2) + int(price_3) 
+tax = subtotal*(tax_persentage/100)
+final_total = subtotal + tax
+print(item_1, price_1)
+print(item_2, price_2)
+print(item_3, price_3)
+print("subtotal:", subtotal)
+print("tax:", int(tax))
+print("final_total:", final_total)
