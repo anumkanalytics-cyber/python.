@@ -1,60 +1,27 @@
 user_pass = input("Enter your password: ")
 encrpt_pass = ""
 for char in user_pass:
-    if char == 1:
-        encrpt = encrpt + "a"
-    elif char == 2:
-        encrpt = encrpt + "b"
-    elif char == 2:
-        encrpt =  encrpt + "c"
-    elif  char == 3:
-        encrpt = encrpt + "d"
-    elif  char == 4:
-        encrpt = encrpt + "e"
-    elif  char == 5:
-        encrpt = encrpt + "f"
-    elif  char == 6:
-         encrpt = encrpt + "g"
-    elif  char == 7:
-        encrpt = encrpt + "h"
-    elif  char == 8:
-        encrpt =  encrpt + "i"
-    elif  char == 9:
-        encrpt =  encrpt + "j"
-    elif  char == 10:
-         encrpt =  encrpt + "k"
-    elif  char == 11:
-         encrpt =  encrpt + "l"
-    elif  char == 12:
-        encrpt =  encrpt + "m"
-    elif  char == 13:
-         encrpt = encrpt + "n"
-    elif  char == 14:
-         encrpt =  encrpt + "o"
-    elif  char == 15:
-         encrpt =  encrpt + "q"
-    elif  char == 16:
-         encrpt =  encrpt + "r"
-    elif  char == 17:
-         encrpt =  encrpt + "s"
-    elif  char == 18:
-         encrpt = encrpt + "t"
-    elif  char == 19:
-         encrpt = encrpt + "u"
-    elif  char == 20:
-        encrpt =  encrpt + "v"
-    elif  char == 21:
-         encrpt =  encrpt + "w"
-    elif  char == 22:
-         encrpt =  encrpt + "x"
-    elif  char == 23:
-         encrpt = encrpt + "y"
-    elif  char == 24:
-         encrpt =  encrpt + "z"
+    if char == "1":
+        encrpt_pass += "a"
+    elif char == "2":
+        encrpt_pass += "b"
+    elif char == "3":
+        encrpt_pass += "c"
+    elif char == "4":
+        encrpt_pass += "d"
+    elif char == "5":
+        encrpt_pass += "e"
+    elif char == "6":
+        encrpt_pass += "f"
+    elif char == "7":
+        encrpt_pass += "g"
+    elif char == "8":
+        encrpt_pass += "h"
+    elif char == "9":
+        encrpt_pass += "i"
+    elif char == "0":
+        encrpt_pass += "j"
     else:
-     encrpt_pass = encrpt_pass + "_NUM_OR_SPECIAL_CHAR_HERE_"
-    
-    
-            
-      
-     
+        encrpt_pass += "_NUM_OR_SPECIAL_CHAR_HERE_"
+
+print("Encrypted password:", encrpt_pass)
