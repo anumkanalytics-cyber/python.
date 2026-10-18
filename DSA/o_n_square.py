@@ -8,11 +8,11 @@ def find_dulpicate(numbers):
     return False
 
 
-numbers = [10, 22, 35, 22, 48]
+numbers = [10, 22, 35, 20, 48]
 
 result = find_dulpicate(numbers)
 
 if result:
     print("Duplicate found!")
 else:
-    print("No Duplicate")
+    print("No Duplicate.")
