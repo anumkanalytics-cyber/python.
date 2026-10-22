@@ -1,3 +1,4 @@
+#O (n of square)
 def has_duplicates_slow(numbers):
     for i in range(len(numbers)):
         for j in range(len(numbers)):

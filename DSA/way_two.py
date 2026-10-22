@@ -1,5 +1,5 @@
 def has_duplicates_fast(numbers):
-    seen = set()
+    seen = set()#empty set
 
     for number in numbers:
         if number in seen:

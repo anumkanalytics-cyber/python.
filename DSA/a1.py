@@ -1,9 +1,7 @@
 marks = [88, 72, 95, 61,79]
 
 print(marks[1:4])
-
-
-
+print(marks[::2])
 
 
 #O(1)
@@ -11,10 +9,6 @@ print(marks[1:4])
 #marks.pop(1)
 """marks.remove(95)
 print(marks)"""
-
-
-
-
 
 
 
@@ -26,9 +20,6 @@ print(marks)
 marks.insert(2, 55)
 print(marks)
 """
-
-
-
 
 
 #Access O(1)
