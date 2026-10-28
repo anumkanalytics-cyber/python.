@@ -1,0 +1,14 @@
+linear data structure
+stacks and q
+
+"({[]})"
+
+
+
+1-explain a stacks
+2-undo, reverse, backtrack, matching, previous
+3- append(), pop()
+
+A- list
+B- class/projects
+C-is_empty(), pop() 
