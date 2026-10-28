@@ -11,3 +11,10 @@ def clean(names):
 names = ["Eman", "Ali", "Rabia", "Ahmad", "Ahmad", "Sara"]
 count = clean(names)
 print(names[:count])
+
+
+"""
+same name? right moves, left stays, register change does not .
+different? left forward, new name copy left new spot
+
+"""
